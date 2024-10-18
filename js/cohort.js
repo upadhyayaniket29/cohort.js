@@ -52,6 +52,28 @@ for(let i=0;i<=1000;i++){
     
 }
 
+// Arrays in objects
+
+const person=[{
+    firstname:"ramesh",
+    gender:"male"
+},{
+    secondname:"aniket",
+    gender:"male"
+},{
+    thirdname:"upadhyaya",
+    gender:"male"
+}]
+
+for(let i=0;i<person.length;i++)
+{
+    
+    if(person[i]["gender"]==male){
+        console.log(person[i]["firstname"]);
+        
+    }
+    
+}
 
 
 
