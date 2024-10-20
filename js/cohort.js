@@ -86,6 +86,14 @@ console.log(value)
 
 // Callback functions 
 
+function sum(a,b){
+    const ans=a+b;
+    return ans;
+}
+
+const value=sum(1,2)
+console.log(value)
+
 
 
 
