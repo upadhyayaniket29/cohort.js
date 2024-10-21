@@ -94,6 +94,8 @@ function sum(a,b){
 const value=sum(1,2)
 console.log(value)
 
+console(log)
+
 
 
 
