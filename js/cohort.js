@@ -91,14 +91,125 @@ function sum(a,b){
     return ans;
 }
 
-const value=sum(1,2)
-console.log(value)
-
-console(log)
 
 
 
+function getLength(str) {
+    console.log("Original String:", str);
+    console.log("Length:", str.length);
+  }
+  getLength("Hello World");
+
+
+//   Length
+  function getLength(str){
+    console.log("orginal string:",str)
+    console.log("length:",str.length)
+  }
+  getLength("Aniket  Upadhyay");
+
+  // indexOf
+function findIndexOf(str, target) {
+    console.log("Original String:", str);
+    console.log("Index:", str.indexOf(target));
+  }
+  findIndexOf("HelloWorld", "d");
+
+  function findIndexof(str,target)
+  {
+    console.log("orginal string:",str);
+    console.log("index",str.indexof(target));
+  }
+  findIndexOf("AniketUpadhyay","ket")
+
+
+  // slice
+function getSlice(str, start, end) {
+    console.log("Original String:", str);
+    console.log("After slice:", str.slice(start, end));
+  }
+  getSlice("Hello World", 0, 5);
+
+
+  function getslice(str,start,end){
+    console.log("orginal string",str);
+    console.log("after slice",str.slice(start,end));
+    // Until end element end element is not included
+
+  }
+  getslice("AniketUpadhyay",0,5);
+
+
+  // replace
+function replaceString(str, target, replacement) {
+    console.log("Original String:", str);
+    console.log("After replace:", str.replace(target, replacement));
+  }
+  replaceString("Hello World", "World", "JavaScript");
+
+  function replaceit(str,target,replacement){
+    console.log("orginal string",str);
+    console.log("after replacement",str.replace(target,replacement));
+  }
+
+  replaceit("aniket","ket","ika");
+
+
+  // split
+function splitString(str, separator) {
+    console.log("Original String:", str);
+    console.log("After split:", str.split(separator));
+  }
+  splitString("Hello World", " ");
+
+
+  function splitstring(str,separator){
+    console.log("orginal string",str);
+    console.log("after split",str.split(separator));
+
+  }
+  splitstring("aniket","t")
+
+  // trim
+function trimString(str) {
+    console.log("Original String:", str);
+    console.log("After trim:", str.trim());
+  }
+  trimString(" Hello World ");
+
+
+  function totrim(str){
+    console.log("orginal string",str);
+    console.log("after trim",str.trim());
+  }
+  trimString("       AnikeUpadhyay      ")
+
+//   Does not trim the space between letters
 
 
 
 
+// substring
+function getSubstring(str, start, end) {
+    console.log("Original String:", str);
+    console.log("After substring:", str.substring(start, end));
+  }
+  getSubstring("Hello World", 0, 5);
+
+
+//   Substring
+
+function getSubstring(str,start,end){
+    console.log("orginal string",str);
+    console.log("after substring",str.substring(start,end));
+}
+getSubstring("aniketupadhyay",9,6);
+
+function getSlice(str, start, end) {
+    console.log("Original String:", str);
+    console.log("After slice:", str.slice(start, end));
+  }
+  getSlice("aniketupadhyay", -9, 6);
+//   !Important
+
+//   difference between slice and substring can be seen when start is greater than stop
